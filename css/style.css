@@ -1,0 +1,50 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    }
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url("../img/bg1.jpeg");
+    min-height: auto;
+}
+.pimg2{
+    background-image: url("../img/bg2.jpeg");
+    min-height: auto;
+}
+.pimg3{
+    background-image: url("../img/bg3.jpeg");
+    min-height: auto;
+}
+.bg-white{
+    background-color: #ECF0F1
+}
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+a:link, a:visited {
+    color:unset;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
+.navbar .dropdown-menu{
+    width: 100%; 
+    height: auto;
+}
+#mn .dropdown{
+    position: static;
+}
+.navbar .nav-link{
+    font-size: 18px;
+}
+
